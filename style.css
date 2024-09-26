@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 120px;
+    position: sticky;
+    top: 0;
+    z-index: 11;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+}
+.header{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    gap: 30px;
+}
+.header .logo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.header .logo img{
+    width:200px;
+    border-radius: 20px;
+}
+.header nav{
+    width: 100%;
+    height: 100%;
+}
+.header nav ul{
+    gap: 50px;
+}
+.header nav ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+}
+.container{
+    margin-top: 30px;
+}
+.carousel-item img{
+    height: 500px;
+    
+}
+.container h1{
+    margin: 40px 0;
+}
+.card{
+    height: 520px;
+   width: 100%;
+    overflow: hidden;
+
+}
+.card img{
+    width: 100%;
+    height: 70%;
+    transition: ease-in-out 0.5s;
+}
+.card img:hover{
+    transform: scale(1.07);
+}
+.card .card-body{
+    width: 100%;
+    height: 30%;
+    
+}
+.modal{
+    margin-top:100px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #d8d2d2;
+    margin-top: 50px;
+}
+footer .container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    /* background-color: red; */
+}
+footer .container .logo{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+footer .container .logo img{
+    width: 200px;
+    border-radius: 20px;
+}
+footer .container .logo:nth-child(3){
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+footer .container .logo i{
+    font-size: 30px;
+}
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) { 
+    .header{
+       width: 100%; 
+       position: relative;
+    }
+    .header .logo img{
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+    }
+    .header .container-fluid{
+        display: flex;
+        justify-content: end;
+        /* background-color: green; */
+        align-items: center;
+    }
+    .navbar-toggler{
+        position: absolute;
+        top: 30px;
+    }
+    .navbar-collapse{
+        padding: 30px;
+        background-color: #efeeeeed;
+        border-radius: 10px;
+       
+    }
+    .carousel-item img{
+        height: 150px;
+        
+    }
+ .container{
+        margin-top: 20px;
+    }
+    .container h1{
+        margin: 20px 0;
+        margin-left: 30px;
+    }
+ .card{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+ }
+ footer{
+    height: 450px;
+    /* background-color: rgb(96, 96, 96); */
+ }
+ footer .container{
+    display: flex;
+    flex-direction: column;
+
+ }
+ footer .container .logo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ footer .container .logo:nth-child(3){
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ }
+    
+   
+}
+
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { }
+/* 
+// XX-Large devices (larger desktops) */
+/* // No media query since the xxl breakpoint has no upper bound on its width */

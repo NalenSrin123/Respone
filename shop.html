@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="shop.css">
+    <link rel="icon" href="Image/logo.png">
+</head>
+<body>
+  <header>
+    <div class="header">
+        
+        <nav class="navbar navbar-expand-lg navbar-light d-flex">
+          <div class="logo">
+            <img src="Image/logo1.jpg" alt="">
+        </div>
+            <div class="container-fluid"> 
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="shop.html">SHOP</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">NEWS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">CONTACT</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+  </header>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+            <h3>FEED BACK</h3>
+            <form action="">
+                <label for="" class="form-label">Name</label>
+                <input type="text" name="" class="form-control" id="">
+                <label for="" class="form-label">Email</label>
+                <input type="email" name="" class="form-control" id="">
+                <label for="" class="form-label">Phone Number</label>
+                <input type="text" name="" class="form-control" id="">
+                <label for="" class="form-label">Address</label>
+                <input type="text" name="" class="form-control" id="">
+                <label for="" class="form-label">Description</label>
+                <textarea name="" id="" class="form-control"></textarea>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal"><i class="fa-solid fa-paper-plane mx-2"></i>Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <section>
+        <article>
+            <h1 >NEW PRODUCTS</h1>
+            <div class="container">
+                <div class="box-card">
+                    <div class="row">
+                       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3">
+                        <div class="card" >
+                            <img src="https://i.pinimg.com/236x/98/ea/a7/98eaa79c253ca710027dd4d8f3d06a8f.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">T-Shirt With Print</h5>
+                              <p class="card-text text-danger">Price:$7.56</p>
+                              <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                          </div>
+                       </div>
+                       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3">
+                        <div class="card" >
+                            <img src="https://zandokh.com/image/cache/catalog/products/2024-08/2122406693/Regular-T-Shirt%20(2)-cr-450x672.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Regular T-Shirt</h5>
+                              <p class="card-text text-danger">Price: $12.25</p>
+                              <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                          </div>
+                       </div>
+                       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3">
+                        <div class="card" >
+                            <img src="https://zandokh.com/image/cache/catalog/products/2024-09/2122406721/T-Shirt%20(3)-cr-450x672.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Unisex Loose Fit T-Shirts</h5>
+                              <p class="card-text text-danger">Price: $14.35</p>
+                              <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                          </div>
+                       </div>
+                    </div>
+                </div>
+            <div class="category my-5">
+             <h1>CATEGORIES</h1>
+             <div class="cate">
+                <button class="btn "><a href="">MAN</a></button>
+                <button class="btn btn-warning"><a href="">WOMAN</a></button>
+                <button class="btn "><a href="">BOY</a></button>
+                <button class="btn btn-warning"><a href="">GILR</a></button>
+             </div>
+             <h1 class="mt-5">PROMOTIONS</h1>
+             <button class="btn btn-outline-danger">Promotion</button>
+             <h1 class="mt-5">PRICE</h1>
+             <button class="btn btn-outline-warning">Low Price</button>
+             <button class="btn btn-outline-warning">Hight Price</button>
+            </div>
+
+            </div>
+        </article>
+        <div class="relate">
+            <h1>RELATED PRODUCTS</h1>
+            <div class="relate-product">
+              <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 my-2">
+                  <div class="card" >
+                    <img src="https://zandokh.com/image/cache/catalog/products/2024-09/2222407858/Cargo-Parachute-Trouser%20(4)-cr-450x672.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cargo Parachute Trouser</h5>
+                      <p class="card-text text-danger">Price: $10.50</p>
+                      <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl- my-2 col-xxl-3 my-2">
+                  <div class="card">
+                    <img src="https://i.pinimg.com/236x/30/30/5b/30305b018a051693caac0094e501dddb.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Shirt</h5>
+                      <p class="card-text text-danger">Price:$10</p>
+                      <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 my-2">
+                  <div class="card">
+                    <img src="https://i.pinimg.com/236x/32/8c/06/328c063080b643b8894a8a19db29b3ac.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Couple Shirt</h5>
+                      <p class="card-text text-danger">Price: $15.50</p>
+                      <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 my-2">
+                  <div class="card">
+                    <img src="https://i.pinimg.com/236x/96/f7/50/96f750bf560417aedbc63862d31e6358.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Straight Fit Jean</h5>
+                      <p class="card-text text-danger">Price:$12.30</p>
+                      <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+          <div class="logo">
+              <img src="Image/logo1.jpg" alt="">
+          </div>
+          <div class="logo">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est voluptatum blanditiis facilis eius rerum explicabo facere cumque dolore, culpa quisquam?</p>
+          </div>
+          <div class="logo">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
